@@ -12,7 +12,7 @@ const GerarNumeroAleatorio = () => {
 
     /*FUNÇÃO QUE GERA O NUMERO, VERIFICA OS VALORES DO INPUT E DO NUMERO GERADO.*/
     const Verificar = () => {
-      const numeroGerado = Math.floor(Math.random() * 20) + 1; // Gera um número aleatório de 1 a 10
+      const numeroGerado = Math.floor(Math.random() * 20) + 1; // Gera um número aleatório de 1 a 20
       setNumeroAleatorio(numeroGerado);
 
       if(parseInt(numeroDigitado) === numeroGerado) {
